@@ -1,3 +1,2 @@
-# Title
-
-## blabla
+# Getting started
+> sddocs
