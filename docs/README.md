@@ -113,6 +113,9 @@ Read this [article]((http://www.firewall.cx/cisco-technical-knowledgebase/cisco-
 5. Git feth (fetch to update your remote-tracking branches under refs/remotes/remote/)
 6. Git pull (Download and incorporate changes)
 7. Git push (Uploads all local branch commits to GitHub/GitLab or whatever you are using)
+8. Git branch (Lists all local branches in the current repository)
+9. Git checkout [branch-name] (Switches to the specified branch and updates the working directory)
+10. Git gc (Runs a number of housekeeping tasks within the current repository, such as compressing file revisions to reduce disk space and increase performance and removing unreachable objects which may have been created from prior invocations of git add.)
 
 > [Git cheat-sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
