@@ -47,19 +47,18 @@ This worked fine for me on last 2 msi laptop.
 
 Open a ruby command line and run:
 
-1. Gem install sass
-2. Gem install zurb-foundation
-3. Gem install compass
-4. Gem install breakpoint
+1. gem install sass
+2. gem install zurb-foundation
+3. gem install compass
+4. gem install breakpoint
 
 ## Node js
 
 Download and install the reccomended version of [node.js](https://nodejs.org/en/). Node is running all the grunt task, bower and other utility we use in most project.
 
-If the project you working on does require grunt, bower or any other npm:
+If the project you working on does require any of the above mentioned pakage, run:
 
-1. Run: Npm install (this will install all the package necessary if you already have a package.json file in the project root)
-2. Run: Bower install (this will install all the package necessary if you already have a bower.json file in the project root)
+1. npm install && bower install (this will install all the package necessary if you already have a package.json & bower.json file in the project root)
 
 > If you need any npm pakage that isn't in the json file, just run: npm install 'package-name'. An example below with bless-css pakage.
 
@@ -104,18 +103,18 @@ Download: [cisco_5.0.7_vpn64bit](https://drive.google.com/file/d/0B46U1Qcuo72jSj
 Read this [article]((http://www.firewall.cx/cisco-technical-knowledgebase/cisco-services-tech/1165-cisco-vpn-client-windows-10-anniversary-update-break-and-fix.html) on how to fix it.
 
 
-# Basic GIT command line
+# Basic GIT command
 
-1. Git init [project name] (Creates a new local repository with the specified name)
-2. Git clone [url] (Downloads a project and its entire version history)
-3. Git add [file] (Snapshots the file in preparation for versioning), comm use is: git add -A, to add all modified files
+1. git init [project name] (Creates a new local repository with the specified name)
+2. git clone [url] (Downloads a project and its entire version history)
+3. git add [file] (Snapshots the file in preparation for versioning), comm use is: git add -A, to add all modified files
 4. git commit -m "[descriptive message]" (Records file snapshots permanently in version history)
-5. Git feth (fetch to update your remote-tracking branches under refs/remotes/remote/)
-6. Git pull (Download and incorporate changes)
-7. Git push (Uploads all local branch commits to GitHub/GitLab or whatever you are using)
-8. Git branch (Lists all local branches in the current repository)
-9. Git checkout [branch-name] (Switches to the specified branch and updates the working directory)
-10. Git gc (Runs a number of housekeeping tasks within the current repository, such as compressing file revisions to reduce disk space and increase performance and removing unreachable objects which may have been created from prior invocations of git add.)
+5. git feth (fetch to update your remote-tracking branches under refs/remotes/remote/)
+6. git pull (Download and incorporate changes)
+7. git push (Uploads all local branch commits to GitHub/GitLab or whatever you are using)
+8. git branch (Lists all local branches in the current repository)
+9. git checkout [branch-name] (Switches to the specified branch and updates the working directory)
+10. git gc (Runs a number of housekeeping tasks within the current repository, such as compressing file revisions to reduce disk space and increase performance and removing unreachable objects which may have been created from prior invocations of git add.)
 
 > [Git cheat-sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
