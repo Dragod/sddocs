@@ -43,7 +43,7 @@ Another (imho better workaround) is to replace the https source temporary, run g
 
 This worked fine for me on last 2 msi laptop.
 
-### Installing required gems
+### Ruby gems
 
 Open a ruby command line and run:
 
