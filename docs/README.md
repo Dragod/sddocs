@@ -157,3 +157,39 @@ c:/sddev/vs2008/c3v4/c3v4/ grunt
 
 To split css:
 c:/sddev/vs2008/c3v4/c3v4/sass/blessc formbuilder.css formbuilder_split.css    ---> Make sure to be in the sass folder ot it won't work.
+
+# Code Editors
+
+## Sublime Text
+
+Download [Sublime text 3](https://www.sublimetext.com/3)
+
+### Shortcuts
+
+ctrl + alt + uparrow/downarrow - create a new editable point above/below cursor
+
+ctrl + d - with selection - select next instance of a selection and create a new edit point
+
+ctrl + shift + d - duplicate current line or selection 
+
+shift + ctrl  + uparrow/downarrow - move current line up/down
+
+alt + shift + w wrap selection in a tag
+
+ctrl + j - concatenate lines
+
+ctrl + shift + m - select to brackets
+
+ctrl + shift + j - select to indentation
+
+ctrl + / - comment/uncomment
+
+ctrl + r - search through classes / elements
+
+## Visual studio code
+
+Download [Visual studio code](https://code.visualstudio.com/)
+
+### Shortcuts
+
+[Show PDF](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)

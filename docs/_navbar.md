@@ -1,3 +1,3 @@
-- [Home](/)
-- [Guide](#guide)
-- [Help](/help)
+- [Getting started](/)
+- [Modular SCSS](/modular-scss)
+- [Branches](/branches)
