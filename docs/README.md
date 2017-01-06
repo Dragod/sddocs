@@ -125,7 +125,7 @@ Shrew Soft VPN is similar to CISCO, but not as old. Unfortunately, even this sof
 
 Download: [Shrew Soft_2.2.2](https://www.shrew.net/download/vpn)
 
-You can find an in depth guide for Shrew Soft in the [Screendragon Desk](http://helpdesk.screendragon.com/support/solutions/articles/12000002478-shrewsoft-vpn-configuration). If you don't habe access please ask Dave O'Connell.
+You can find an in depth guide for Shrew Soft in the [Screendragon Desk](http://helpdesk.screendragon.com/support/solutions/articles/12000002478-shrewsoft-vpn-configuration). If you don't have access please ask Dave O'Connell.
 
 # Basic GIT command
 
