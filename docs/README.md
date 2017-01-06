@@ -89,6 +89,20 @@ Download and install [Visual studio Express](https://www.visualstudio.com/vs/vis
 1. From the menu select: FILE >>> Open Project, then load the proper file with the .sln extension.
 2. Start the project clicking on the RUN button on the top bar.
 
+### Dependencies
+
+Sometimes project do require additional dependencies such as DLL. If you get an error while trying to build a solution this may be ypur problem.
+To solve this you can use the Pakage Manager inside visual studio.
+
+How to handle this:
+
+1. The Package Manager Console in Visual Studio lets you use NuGet PowerShell commands to find, install, uninstall, and update NuGet packages. Using the Console is necessary if you want to work with packages without having a solution open, and is required in cases where the Package Manager UI does not provide a way to perform an operation. Note, however, that all operations can be done with the NuGet CLI. In all cases, you open the Console in Visual Studio through the Tools > NuGet Package Manager > Package Manager Console command.
+2. Usually the error reported during the build does tell you what package is missing. Search the package from [nuget website](https://www.nuget.org/packages)
+3. Type in the package you want to download. Example: Install-Package DocumentFormat.OpenXml 
+4. Press ENTER, and it will download it for you.
+5. Once it's done, repeat this until you got all the dependencies fixed.
+6. Start your solution again, you should be able to run it now.
+
 ## VPN
 
 To login on any of our project you need a virtual private connection (VPN).
