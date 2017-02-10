@@ -1,3 +1,3 @@
 - [Getting started](/)
-- [Modular SCSS](/template-modules)
+- [Template Modules](/template-modules)
 - [Branches](/branches)
