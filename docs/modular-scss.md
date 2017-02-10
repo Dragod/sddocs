@@ -2,7 +2,7 @@
 
 ## Fixed Modal header
 
-```
+```html
 <div class="fixed-modal-header">
     <h5 class="modal-title">
         <span class="heading title">Title here</span>
@@ -17,7 +17,7 @@
 
 ## Split button
 
-```
+```html
  <button class="button small split" data-dropdown="">Options
     <span></span>
 </button>
