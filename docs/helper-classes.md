@@ -56,6 +56,7 @@ Also, adding ```.ghost``` and a color class to these elements will make it a see
 > Some basic typography classes:
 
 ```.quiet``` - lightens text
+
 ```.loud``` - darkens and bolds text (font-weight 600)
 
 
