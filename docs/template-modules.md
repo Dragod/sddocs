@@ -1,4 +1,4 @@
-# Modular SCSS
+# Template Modules
 
 ## Fixed Modal header
 
