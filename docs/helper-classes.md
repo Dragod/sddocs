@@ -1,6 +1,6 @@
 # Padding / Margin
 
-## Class names:
+## Class names
 
 * .pa / .ma for padding or margin, then add a position
 * l - left
@@ -11,7 +11,7 @@
 * tb - top / bottom
 * all - all
 
-## Unit:
+## Unit
 
 * qtr - quarter
 * half - half
