@@ -5,12 +5,14 @@
 ```
 <div class="fixed-modal-header">
     <h5 class="modal-title">
-        <span class="heading title">Create New  Project</span>
+        <span class="heading title">Title here</span>
     </h5>
     <div class="formButtons">
+    <!-- Split button -->
       <button class="button small split" data-dropdown="">Options
         <span></span>
       </button>
+    <!-- End split button -->
       <ul class="f-dropdown right" data-dropdown-content="" id="">
         <li>
             <a class="">Opt1</a>
