@@ -1,6 +1,6 @@
 # Colors 
 
-> All colors classes starts with .cv-
+> All colors classes starts with ```.cv-```
 
 You then add which color you want to use:
 
