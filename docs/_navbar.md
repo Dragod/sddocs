@@ -1,3 +1,3 @@
 - [Getting started](/)
 - [Template Modules](/template-modules)
-- [Branches](/branches)
+- [Colors](/colors)
