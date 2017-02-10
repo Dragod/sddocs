@@ -1,6 +1,6 @@
 # Padding / Margin
 
-> Generic classes to add padding/margin to an element, measured in rem:
+## Class names:
 
 * .pa / .ma for padding or margin, then add a position
 * l - left
@@ -11,7 +11,7 @@
 * tb - top / bottom
 * all - all
 
-> And a unit:
+## Unit:
 
 * qtr - quarter
 * half - half
@@ -19,6 +19,8 @@
 * 2 - 2 rem
 * 3 - 3 rem
 * 4 - 4 rem
+
+> All the classes above are measured in rem.
 
 ```html
 <div class="pa-l-qtr"> <!-- Gives 0.25 rem on left side -->
