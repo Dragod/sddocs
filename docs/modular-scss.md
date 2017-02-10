@@ -8,22 +8,25 @@
         <span class="heading title">Title here</span>
     </h5>
     <div class="formButtons">
-    <!-- Split button Optional if needed-->
-      <button class="button small split" data-dropdown="">Options
-        <span></span>
-      </button>
-      <ul class="f-dropdown right" data-dropdown-content="" id="">
-        <li>
-            <a class="">Opt1</a>
-        </li>
-        <li>
-          <a class="">Opt2</a>
-        </li>
-      </ul>
-    <!-- End split button -->
       <button class="small" type="button">Button 1</button>
       <button class="small" type="button">Button 2</button>
       <a class="close-withPopup close-reveal-modal"></a>
     </div>
 </div>
+```
+
+## Split button
+
+```
+ <button class="button small split" data-dropdown="">Options
+    <span></span>
+</button>
+<ul class="f-dropdown right" data-dropdown-content="" id="">
+    <li>
+        <a class="">Opt1</a>
+    </li>
+    <li>
+        <a class="">Opt2</a>
+    </li>
+</ul>
 ```
