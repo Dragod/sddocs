@@ -28,8 +28,8 @@ You can then add what you are targeting:
 
 So a fully built up class would be something like:
 
-``` css
-.cv-g-3-bg  /*A very light grey background*/
+``` html
+.cv-g-3-bg  <!--A very light grey background -->
 ```
 The bg classes already have a color contrast function built into them so they should give a text color that is easily visible on that background.
 
