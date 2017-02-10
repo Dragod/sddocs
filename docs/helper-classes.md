@@ -51,6 +51,14 @@ Also, adding ```.ghost``` and a color class to these elements will make it a see
 <div class="ma-all-1"> <!-- Gives a 1 rem margin all around -->
 ```
 
+# Typography
+
+> Some basic typography classes:
+
+```.quiet``` - lightens text
+```.loud``` - darkens and bolds text (font-weight 600)
+
+
 
 
 

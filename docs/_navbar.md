@@ -1,4 +1,4 @@
 - [Getting started](/)
 - [Template Modules](/template-modules)
 - [Colors](/colors)
-- [Helpers Classes](/helper-classes)
+- [Helper Classes](/helper-classes)
