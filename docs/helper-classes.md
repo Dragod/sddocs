@@ -61,6 +61,30 @@ Also, adding ```.ghost``` and a color class to these elements will make it a see
 
 * ```.loud``` - darkens and bolds text (font-weight 600)
 
+# Mixin
+
+## Longhand borders
+
+* This mixin will help create longhand css borders to help workout colour skinning. To use it just call ```@include border(1px, solid, #fff)```.
+
+> Example:  4 borders
+
+```css
+border-width: 1px;
+border-color: #fff;
+border-style: solid;
+```
+
+if you don't need all 4 borders, you need to pass the paramaeter to the mixin. Valid parameter are top,right,bottom and left. Example: ```@include border(1px, solid, #fff, left)```
+
+> Example: 1 border
+
+```css
+border-left-width: 1px;
+border-left-color: #fff;
+border-left-style: solid;
+```
+
 
 
 
