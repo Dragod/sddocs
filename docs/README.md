@@ -11,8 +11,8 @@ Download and install the latest [GIT client](https://git-scm.com/downloads), thi
 In order to be able to clone any repository, you need to setup a SSH key on youre Machine:
 
 1. Run git bash
-2. Run the commnand: eval "$(ssh-agent -s)" in the command line to enable ssh (Windows machine, sometimes you don't need to run this command, just go to next step)
-3. Run the command: ssh-keygen -t rsa -b 4096 -C "your_email@example.com", a ssh key will be crated
+2. Run the commnand: ```eval "$(ssh-agent -s)"``` in the command line to enable ssh (Windows machine, sometimes you don't need to run this command, just go to next step)
+3. Run the command: ```ssh-keygen -t rsa -b 4096 -C "your_email@example.com"```, a ssh key will be crated
 4. Now search for the folder: c\user\whatevername\.ssh and find the file id_rsa.pub
 5. Open that file with Word Pad and copy the content.
 6. Open https://gitlab.screendragon.net/profile/keys
@@ -35,11 +35,11 @@ Quick reference, just in case it will be removed from the web:
 I noticed this problem with a fresh installation on windows using the ruby-installer.
 Another (imho better workaround) is to replace the https source temporary, run gem update --system and then switch back to https.
 
-1. gem sources --remove https://rubygems.org/
-2. gem sources --add http://rubygems.org
-3. gem update --system
-4. gem sources --remove http://rubygems.org
-5. gem sources --add https://rubygems.org
+1. ```gem sources --remove https://rubygems.org/```
+2. ```gem sources --add http://rubygems.org```
+3. ```gem update --system```
+4. ```gem sources --remove http://rubygems.org```
+5. ```gem sources --add https://rubygems.org```
 
 This worked fine for me on last 2 msi laptop.
 
@@ -47,10 +47,10 @@ This worked fine for me on last 2 msi laptop.
 
 Open a ruby command line and run:
 
-1. gem install sass
-2. gem install zurb-foundation
-3. gem install compass
-4. gem install breakpoint
+1. ```gem install sass```
+2. ```gem install zurb-foundation```
+3. ```gem install compass```
+4. ```gem install breakpoint```
 
 ## Node js
 
@@ -64,7 +64,7 @@ If the project you working on does require any of the above mentioned pakage, ru
 
 ### Bless css for IE9
 
-1. Run: npm install -g bless@3.0.3
+1. Run: ```npm install -g bless@3.0.3```
 2. Go to the folder where the actual css is, like: C:\sddev\vs2008\c3v4\c3v4\sass
 3. Run: blessc formbuilder.css formbuilder_split.css
 
@@ -74,8 +74,8 @@ If the project you working on does require any of the above mentioned pakage, ru
 
 NPM does have some options when installing package, I will cover the very basic:
 
-1. npm install -g 'pakage-name' (the -g flag stand for global so the pakage will be installed as global)
-2. npm install -g 'pakage-name@3.0.0 (the flag @ allow us to install a very specific version of the pakage)
+1. ```npm install -g 'pakage-name'``` (the -g flag stand for global so the pakage will be installed as global)
+2. ```npm install -g 'pakage-name@3.0.0``` (the flag @ allow us to install a very specific version of the pakage)
 
 > [NPM flags and other options - article](https://docs.npmjs.com/cli/install)
 
@@ -129,16 +129,16 @@ You can find an in depth guide for Shrew Soft in the [Screendragon Desk](http://
 
 # Basic GIT command
 
-1. git init [project name] (Creates a new local repository with the specified name)
-2. git clone [url] (Downloads a project and its entire version history)
-3. git add [file] (Snapshots the file in preparation for versioning), comm use is: git add -A, to add all modified files
-4. git commit -m "[descriptive message]" (Records file snapshots permanently in version history)
-5. git feth (fetch to update your remote-tracking branches under refs/remotes/remote/)
-6. git pull (Download and incorporate changes)
-7. git push (Uploads all local branch commits to GitHub/GitLab or whatever you are using)
-8. git branch (Lists all local branches in the current repository)
-9. git checkout [branch-name] (Switches to the specified branch and updates the working directory)
-10. git gc (Runs a number of housekeeping tasks within the current repository, such as compressing file revisions to reduce disk space and increase performance and removing unreachable objects which may have been created from prior invocations of git add.)
+1. ```git init [project name]``` (Creates a new local repository with the specified name)
+2. ```git clone [url]``` (Downloads a project and its entire version history)
+3. ```git add [file]``` (Snapshots the file in preparation for versioning), comm use is: git add -A, to add all modified files
+4. ```git commit -m "[descriptive message]"``` (Records file snapshots permanently in version history)
+5. ```git feth``` (fetch to update your remote-tracking branches under refs/remotes/remote/)
+6. ```git pull``` (Download and incorporate changes)
+7. ```git push``` (Uploads all local branch commits to GitHub/GitLab or whatever you are using)
+8. ```git branch``` (Lists all local branches in the current repository)
+9. ```git checkout [branch-name]``` (Switches to the specified branch and updates the working directory)
+10. ```git gc``` (Runs a number of housekeeping tasks within the current repository, such as compressing file revisions to reduce disk space and increase performance and removing unreachable objects which may have been created from prior invocations of git add.)
 
 > [Git cheat-sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
@@ -148,39 +148,39 @@ Some sass command to run css build. Just replace the brand word with the actual 
 
 ## Unity build local
 
-sass --watch --compass sass/skins/brand/:css/skins/brand/
+```sass --watch --compass sass/skins/brand/:css/skins/brand/```
 
 Admin
 
-sass --watch --compass sass/skins/brand/brandAdmin.scss:css/skins/brand/brandAdmin.css
+```sass --watch --compass``` ```sass/skins/brand/brandAdmin.scss:css/skins/brand/brandAdmin.css```
 
 Build all (site + admin)
 
-sass --watch --compass sass/skins/brand/:css/skins/brand/
+```sass --watch --compass sass/skins/brand/:css/skins/brand/```
 
 ## Unity build live
 
-C:\gitrepos\htmlunity>grunt --skin=brand
+C:\gitrepos\htmlunity> ```grunt --skin=brand```
 
 ## Specific brand build
 
 ### Castrol
 
-sass --watch --compass sass/:css/
+```sass --watch --compass sass/:css/```
 
 ### C3
 
-c:/sddev/vs2008/c3v4/c3v4/sass --compass --update .
+c:/sddev/vs2008/c3v4/c3v4/```sass --compass --update .```
 
 or Grunt:
 
 NOTE: IMPORTANT! DO NOT USE GRUNT ON A VISUAL STUDIO 2008, "node_modules" folder does break visual studio 2008 debug!
 NOTE2: If node folder contain only split package it DOESN'T break visual studio 2008 debug.
 
-c:/sddev/vs2008/c3v4/c3v4/ grunt
+c:/sddev/vs2008/c3v4/c3v4/ ```grunt```
 
 To split css:
-c:/sddev/vs2008/c3v4/c3v4/sass/blessc formbuilder.css formbuilder_split.css    ---> Make sure to be in the sass folder ot it won't work.
+c:/sddev/vs2008/c3v4/c3v4/sass/```blessc formbuilder.css formbuilder_split.css```    ---> Make sure to be in the sass folder ot it won't work.
 
 # Code Editors
 
@@ -217,3 +217,7 @@ Download [Visual studio code](https://code.visualstudio.com/)
 ### Shortcuts
 
 [Show PDF](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+
+### Automate Bash script to run Sass and rewrite main.css
+
+
