@@ -33,7 +33,7 @@
 
 ## Empty list centering with text & icon
 
->> If you want this snippet to work make sure the parent of this code has the class ```.flex .flex-auto```, or it won't work.
+> If you want this snippet to work make sure the parent of this code has the class ```.flex .flex-auto```, or it won't work.
 
 ```html
 <div class="flex flex-auto justify-center items-center">
