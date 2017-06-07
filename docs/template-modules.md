@@ -30,3 +30,19 @@
     </li>
 </ul>
 ```
+
+## Empty list centering with text & icon
+
+>> If you want this snippet to work make sure the parent of this code has the class ```.flex .flex-auto```, or it won't work.
+
+```html
+<div class="flex flex-auto justify-center items-center">
+        <div class="flex flex-column">
+        <span class="empty-list-icon cv-g-text ma-b-1">
+            <i class="insert-your-icon-class-here"></i>
+        </span>
+        <span class="empty-list-text cv-g-text ma-b-half">Insert main text here</span>
+        <span class="empty-list-text cv-g-text">Insert secondary text here</span>
+    </div>
+    </div>
+```
