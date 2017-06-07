@@ -218,6 +218,40 @@ Download [Visual studio code](https://code.visualstudio.com/)
 
 [Show PDF](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
+### Running IIS in Visual studio code
+
+> Requirements: Windows Machine (Sorry not for Linux & OSX), IIS Express installed
+
+Download and intall: [IIS Express](https://marketplace.visualstudio.com/items?itemName=warren-buckley.iis-express)
+
+After installing the package you need to change the port number. 
+Port number setting can be set in .vscode/iisexpress.json if you wish to override random port number.
+You need the following file added ```.vscode/iisexpress.json``` and then you can set the port setting like so:
+
+```json
+{
+    "port": 49797
+}
+```
+An example of a json config:
+
+```json
+{
+  "port": 49797,
+  "path": "c:\\gitrepos\\sd-unity",
+  "clr": "v4.0",
+  "protocol": "http"
+}
+```
+
+Keyboard shortcuts: 
+
+Start site (Ctrl+F5)
+
+Stop site (Shift+F5) 
+
+Restart site (Ctrl+Shift+F5)
+
 ### Automate Bash script to run Sass and rewrite main.css: Build.sh
 
 Download: [Build.sh](https://drive.google.com/file/d/0B46U1Qcuo72jcU80SDcyUFlyX3M/view?usp=sharing)
