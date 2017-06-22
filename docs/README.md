@@ -256,5 +256,6 @@ Restart site (Ctrl+Shift+F5)
 
 I wrote a small repo to explain how this work.
 
-Repository: [Build.sh](https://github.com/Dragod/unity-ruby-sass-build)
-Clone: [https://github.com/Dragod/unity-ruby-sass-build.git](https://github.com/Dragod/unity-ruby-sass-build.git)
+- Repository: [Build.sh](https://github.com/Dragod/unity-ruby-sass-build)
+
+- Clone: [https://github.com/Dragod/unity-ruby-sass-build.git](https://github.com/Dragod/unity-ruby-sass-build.git)
