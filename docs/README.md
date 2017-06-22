@@ -258,13 +258,15 @@ Download: [Build.sh](https://drive.google.com/file/d/0B46U1Qcuo72jcU80SDcyUFlyX3
 
 Just download and copy the script in your main directory, where the repo is, then open Visual Studio code and show the command line (ctrl+'), type ```bash``` in the console and hit (Enter). Type ```./build.sh``` and hit (Enter) again. Now follow the script instruction in the command line.
 
-> Not every site is available to build, if you need to add one just add it to the array.
+> Not every site is available to build, if you need a new skin just add it into the array.
 
 ```shell
 #!/bin/bash
 
 #Building a script that compile SCSS for unity builds
-# Author: Fabio Paniconi 30.05.2017
+#Author: Fabio Paniconi 30.05.2017
+#Version: 2.0.0
+#Revision: 22.06.2017
 # To run the script just type "./build.sh" in a bash terminal on visual studio code, just make sure you are in the main unity folder (Ex: C:\gitrepos\sd-unity>) or whatever is your folder.
 
 #Define build array. If you want to add more skin just add it to the array

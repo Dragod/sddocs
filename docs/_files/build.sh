@@ -1,7 +1,9 @@
 #!/bin/bash
 
 #Building a script that compile SCSS for unity builds
-# Author: Fabio Paniconi 30.05.2017
+#Author: Fabio Paniconi 30.05.2017
+#Version: 2.0.0
+#Revision: 22.06.2017
 # To run the script just type "./build.sh" in a bash terminal on visual studio code, just make sure you are in the main unity folder (Ex: C:\gitrepos\sd-unity>) or whatever is your folder.
 
 #Define build array. If you want to add more skin just add it to the array
