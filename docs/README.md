@@ -252,13 +252,13 @@ Stop site (Shift+F5)
 
 Restart site (Ctrl+Shift+F5)
 
-### Automate Bash script to run Sass and rewrite main.css: Build.sh
+### Automate Sass compiling and rewrite main.css
 
 Download: [Build.sh](https://drive.google.com/file/d/0B46U1Qcuo72jcU80SDcyUFlyX3M/view?usp=sharing)
 
 Just download and copy the script in your main directory, where the repo is, then open Visual Studio code and show the command line (ctrl+'), type ```bash``` in the console and hit (Enter). Type ```./build.sh``` and hit (Enter) again. Now follow the script instruction in the command line.
 
-> Not every site is available to build, if you need to add one just modify the build.sh script yourself.
+> Not every site is available to build, if you need to add one just add it to the array.
 
 ```shell
 #!/bin/bash
