@@ -62,7 +62,7 @@ If the project you working on does require any of the above mentioned pakage, ru
 
 > If you need any npm pakage that isn't in the json file, just run: npm install 'package-name'. An example below with bless-css pakage.
 
-### Bless css for IE9
+### Bless css for IE9 (deprecated)
 
 1. Run: ```npm install -g bless@3.0.3```
 2. Go to the folder where the actual css is, like: C:\sddev\vs2008\c3v4\c3v4\sass
@@ -109,15 +109,18 @@ To login on any of our project you need a virtual private connection (VPN), usin
 
 ### CISCO VPN
 
-Cisco System VPN client is an old, free, VPN software no longer supported by recent windows, however with some patience we can make it work. Only downside is, CISCO VPN can only handle one VPN at time.
+Cisco System VPN client is an old, free, VPN software no longer supported by recent windows, however with some patience we can make it work. Only downside is, CISCO VPN can only handle one VPN at time. When installing CISCO vpn software make sure to run the `.msi` file rather then the `.exe` file as the program will not be recognized anymore as no longer supported by microsoft. Using the `.msi` file is a workaround.
 
 Download: [cisco_5.0.7_vpn64bit](https://drive.google.com/file/d/0B46U1Qcuo72jSjY2c2tCbTdacTg/view?usp=sharing)
 
 > Before Installing the CISCO VPN software please make sure to install [Sonic Wall](http://help.mysonicwall.com/Applications/vpnclient/) then read below how to hack it for Windows 8-8.1-10, it work under latest anniversay update as well
 
-#### CISCO VPN hacks
+#### Running CISCO VPN on windows 8 and 10
 
 Read this [article]((http://www.firewall.cx/cisco-technical-knowledgebase/cisco-services-tech/1165-cisco-vpn-client-windows-10-anniversary-update-break-and-fix.html) on how to fix it.
+
+> Note: If your machine has installed new update for you such as Window creator update, you need to unistall CISCO vpn and reinstall it. If you having problem finding the installer to unistall use this little utility to remove it from the system: 
+Download: [MicrosoftProgram_Install_and_Uninstall.meta.diagcab](https://drive.google.com/file/d/0B46U1Qcuo72jQVowNlVFUlNGdlU/view?usp=sharing)
 
 ### Shrew Soft VPN
 
