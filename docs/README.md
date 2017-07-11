@@ -248,7 +248,7 @@ An example of a json config:
 ```
 ## Add json mime type to the IIS express
 
-Open up a console, and the navigate to: cd "c:\Program files\IIS Express\". Then type appcmd.exe. 
+Open up a console, and the navigate to: ``cd "c:\Program files\IIS Express\"``. Then type ``appcmd.exe``. 
 Now you can add json mime type with the command below:
 
 ```bat
