@@ -246,23 +246,6 @@ An example of a json config:
   "protocol": "http"
 }
 ```
-## Add json mime type to the IIS express
-
-Open up a console, and the navigate to: ``cd "c:\Program files\IIS Express\"``. Then type ``appcmd.exe``. 
-Now you can add json mime type with the command below:
-
-```bat
-appcmd set config /section:staticContent /+[fileExtension='.json',mimeType='text/j
-son']
-```
-## Show file list locally
-
-Open up a console, and the navigate to: ``cd "c:\Program files\IIS Express\"``. Then type ``appcmd.exe``. 
-Now you can show the file list with the command below:
-
-```bat
-appcmd set config /section:system.webServer/directoryBrowse /enabled:true
-```
 
 Keyboard shortcuts: 
 
@@ -271,6 +254,24 @@ Start site (Ctrl+F5)
 Stop site (Shift+F5) 
 
 Restart site (Ctrl+Shift+F5)
+
+## Add json mime type to the IIS Express
+
+Open up a console, and the navigate to: ``cd "c:\Program files\IIS Express\"``. Then type ``appcmd.exe``. 
+Now you can add json mime type with the command below:
+
+```bat
+appcmd set config /section:staticContent /+[fileExtension='.json',mimeType='text/j
+son']
+```
+## Show file list locally on IIS Express
+
+Open up a console, and the navigate to: ``cd "c:\Program files\IIS Express\"``. Then type ``appcmd.exe``. 
+Now you can show the file list with the command below:
+
+```bat
+appcmd set config /section:system.webServer/directoryBrowse /enabled:true
+```
 
 ### Automate Sass compiling and rewrite main.css
 
